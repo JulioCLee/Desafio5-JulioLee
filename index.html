@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 5</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main class="caja">
+        <div class="info">
+            <h2>Todo list</h2>
+            <hr>
+            <p class="titulo">Nueva tarea</p>
+            <form class="input" id="input" >
+                <input type="text" name="agregar" id="agregar" placeholder="Agrega nueva tarea">
+                <button type="button" class="btn" id="btn">Agregar</button>
+                <button type="button" class="btn" id="btn2">Reiniciar</button>
+            </form>
+            <div class="abajo">
+                <div class="resultado">
+                    <p>Total: <span id="spanTotal">0</span></p>
+                    <p>Realizadas: <span id="totalRealizada">0</span></p>
+                </div>
+                <div id="lista" class="lista">
+                    <div>
+                        <span>ID</span>
+                        <ul id="idTarea" class="id">
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <span>Tarea</span>
+                        <ul id="listaTarea" class="tarea">
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
